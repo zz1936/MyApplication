@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         loginbtn = findViewById(R.id.login_btn);
 
         loginbtn.setOnClickListener(username = usernameInput.toString(), password = passwordInput.toString(),
-        Log.i("Text Credentials", MessageFormat.format("Username : {0} and password : {1}", username, password)));
+        Log.i("Text Credentials", MessageFormat.format("Username : {0} and password : {1}", usernameInput.toString(), passwordInput.toString())));
     }
 }
 
