@@ -44,17 +44,28 @@
             android:padding="18dp"
             android:inputType="textPassword"
             android:id="@+id/pasword_input"/>
-        
+
         <Button
+            android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
-            android:backgroundTint="@color/white"
-            android:textColor="@color/black"
-            android:padding="18dp"
             android:layout_margin="32dp"
-            android:textSize="20sp"
-            android:id="@+id/login_btn"/>
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/SignUp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:text="Sign up"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
     </LinearLayout>
 </RelativeLayout>

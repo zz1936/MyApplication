@@ -7,4 +7,32 @@
     android:layout_height="match_parent"
     tools:context=".VideoActivity">
 
+    <Button
+        android:id="@+id/voicebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voice"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/disconnectbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disconnect"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/videobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="video"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="607dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<org.webrtc.SurfaceViewRenderer
+android:id="@+id/surface_view"
+android:layout_width="match_parent"
+android:layout_height="match_parent" />
